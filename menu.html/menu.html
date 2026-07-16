@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagel Nation Menu</title>
+    <link rel="stylesheet" href="../../style.css/style.css">
+    <style>
+        .menu-content {
+            text-align: center;
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .menu-content h1 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .pdf-viewer {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .pdf-viewer embed {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .menu-items {
+            padding: 40px 20px;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .menu-section {
+            margin-bottom: 40px;
+        }
+
+        .menu-section h2 {
+            font-size: 24px;
+            color: #9b5a6d;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #9b5a6d;
+            padding-bottom: 10px;
+        }
+
+        .menu-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .item-info {
+            flex: 1;
+            margin-right: 20px;
+            text-align: left;
+        }
+
+        .item-info h3 {
+            margin: 0 0 5px 0;
+            color: #333;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        .item-description {
+            color: #666;
+            font-size: 14px;
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1 class="title-placeholder">BAGEL NATION</h1>
+        
+        <!-- Dropdown Menu -->
+        <div class="dropdown">
+            <button class="dropdown-btn">--- ▼</button>
+            <div class="dropdown-content">
+                <a href="../home.html/index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="../online.html/location.html">Locations</a>
+                <a href="../contact.html/contactUs.html">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="menu-content">
+            <h1 style="font-size: 48px; color: #9b5a6d;">Bagel Nation Menu</h1>
+            
+            <div class="menu-items">
+                <!-- Breakfast Section -->
+                <div class="menu-section">
+                    <h1 style="text-align: center;">Breakfast Menu</h1>
+                    
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Fresh Baked Bagels & Cream Cheese</h3>
+                            <p class="item-description"><b>Bagel Flavors:</b> Plain, Everything, Sesame, Poppy, Onion, Garlic, Salt, Frazzle, Cheese, Banana Nut, Chunky Monkey, Cinnamon Raisin, Whole Wheat, Sun Dried Tomato, Sour Dough, Blueberry, Chocolate Chip, Fiesta</p>
+                            <p class="item-description"><b>Sorry, we do not have gluten free bagels!</b></p>
+                            <p class="item-description">- </p>
+                            <p class="item-description"><b>Cream Cheese:</b> Plain, Lite, Lite Veggie, Honey Walnut, Scallion, Bacon Scallion, Strawberry, Sweet, Chocolate Chip, Lox, Spanish Olive, Jalapeno Cheddar, Pimento, Blueberry</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Bagel Toppings</h3>
+                            <p class="item-description">Butter, Preserves, Honey, Honey Butter, Peanut Butter, Hummus, or Specialty Cream Cheese - All bagels toasted unless requested otherwise</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Pastries</h3>
+                            <p class="item-description">Chocolate chip or blueberry muffins, cinnamon rolls</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Pancakes or Waffles</h3>
+                            <p class="item-description">Fluffy buttermilk pancakes or waffles</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Fresh Brewed Coffee</h3>
+                            <p class="item-description">15+ flavors available - Refills free!</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Sunrise Sides</h3>
+                            <p class="item-description">Bacon, ham, sausage patties, turkey, turkey sausage, golden hash browns, grits, pancake or waffle</p>
+                        </div>
+                    </div>
+                    <!-- note here -->
+                    <div class="menu-section" style="margin-bottom: 20px;">
+                        <h2 style="text-align: center;">Omelets</h2>
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h3>Country Omelet</h3>
+                                <p class="item-description">A delicious blend of diced ham, bacon, onions, bell peppers and cheddar cheese with hash browns tucked inside</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h3>Denver Omelet</h3>
+                                <p class="item-description">Loaded with onions, bell peppers, fresh tomatoes, and melted cheddar cheese</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h3>Classic Omelet</h3>
+                                <p class="item-description">A simple yet satisfying omelet made with fresh eggs, cheddar cheese, and your choice of ham, bacon, sausage, turkey, or turkey sausage</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h3>Cheese Omelet</h3>
+                                <p class="item-description">Melted cheddar cheese and customized your way</p>
+                            </div>
+                        </div>
+                        <p style="color: #666; font-size: 14px; margin: 0; text-align: center; font-style: italic;">(All omelets served with one sunrise side and bagel or toast or small pancake)</p>
+                    </div>
+                    <!-- note here -->
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Eggs and such</h3>
+                            <p class="item-description">One, two, or three eggs cooked your way with one sunrise side and bagel. Can sub bagel for pancake or toast</p>
+                        </div>
+                    </div>
+                    <h2 style="text-align: center;">Breakfast Sandwiches</h2>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Egglewich</h3>
+                            <p class="item-description">Egg topped with melted American cheese on a bagel</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Egglewich Deluxe</h3>
+                            <p class="item-description">Egg, melted American cheese, ham, turkey, bacon or pork roll on a bagel</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Southern Belle</h3>
+                            <p class="item-description">Egg, Cajun spices, green peppers, tomatoes, sausage and cheese on a bagel</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Huevos a la Mexicana</h3>
+                            <p class="item-description">Egg, refried beans, ham, topped with cheese and salsa</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Mount Pleasant</h3>
+                            <p class="item-description">Egg, hot corned beef or pastrami, melted Swiss cheese with honey mustard or mayo on a bagel</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Monte Cristo</h3>
+                            <p class="item-description">Hot ham & Swiss topped with raspberry preserves on a bagel</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Denver Bagel</h3>
+                            <p class="item-description">Mix of green peppers, tomato & onions folded into egg and topped with cheese</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Low-Country Bagel</h3>
+                            <p class="item-description">Egg, turkey, bacon, onions, tomatoes & cheese on a bagel</p>
+                        </div>
+                    </div>
+                
+
+                    <div class="menu-section" style="margin-bottom: 20px;">
+                        <h2 style="text-align: center;">Breakfast Wraps</h2>
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h3>Wrapelwich</h3>
+                                <p class="item-description">Egg and cheese in a wrap</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h3>Wrapelwich Deluxe</h3>
+                                <p class="item-description">Egg, cheese and meat in a wrap</p>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h3>Country Wrap</h3>
+                                <p class="item-description">Egg, ham, bacon, onions, bell peppers, cheddar and hash browns in a wrap</p>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h3>Denver Wrap</h3>
+                                <p class="item-description">Egg, bell pepper, onions, tomatoes and cheese in a wrap</p>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h3>Rajun Cajun</h3>
+                                <p class="item-description">Egg, sausage, tomatoes, bell peppers, cajun spices and cheddar cheese</p>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="item-info">
+                                <h3>Southwestern Wrap</h3>
+                                <p class="item-description">Egg, refried beans, ham, salsa and cheese</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                        <h1 style="text-align: center;">Lunch Menu</h1>
+                    <!-- Lunch Section -->
+                <div class="menu-section">
+                    <h2 style="text-align: center;">Big Apple Bagel Sandwiches</h2>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Wall Street Club</h3>
+                            <p class="item-description">Turkey topped with bacon, lettuce, tomato, mayo and mustard</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Manhattan</h3>
+                            <p class="item-description">Hot corned beef and pastrami with melted Swiss cheese and Russian dressing or horseradish mustard sauce</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Queens</h3>
+                            <p class="item-description">Ham, salami, Swiss cheese with honey mustard, lettuce, tomato and onion</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Brooklyn</h3>
+                            <p class="item-description">Hot roast beef topped with smoked gruyere cheese and Russian dressing or horseradish mustard sauce</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Ellis Island</h3>
+                            <p class="item-description">Turkey, topped with Swiss cheese, sprouts, mayonnaise, and Dijon mustard</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Central Park</h3>
+                            <p class="item-description">Turkey, roast beef OR ham with Swiss cheese, lettuce, tomato, mayonnaise and mustard</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Philly Cheese</h3>
+                            <p class="item-description">Hot roast beef, topped white American cheese, grilled onions and green peppers and mayonnaise</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Times Square</h3>
+                            <p class="item-description">Hot pastrami or corned beef, with melted Swiss cheese, onions, lettuce, tomato and Dijon mustard</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Ruben</h3>
+                            <p class="item-description">Hot corned beef, Swiss cheese, sauerkraut, mayonnaise, or thousand island dressing</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Staten Island</h3>
+                            <p class="item-description">Roast Beef, Turkey, Swiss, Lettuce, Horseradish Sauce</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Liberty Lox</h3>
+                            <p class="item-description">Sliced lox, cream cheese, served with onion and tomato</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Egg Salad</h3>
+                            <p class="item-description">Served with lettuce & tomato</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Chicken Salad</h3>
+                            <p class="item-description">Served with lettuce & tomato</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Tuna Salad</h3>
+                            <p class="item-description">Served with lettuce & tomato</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Grilled Cheese</h3>
+                            <p class="item-description"></p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>BLT</h3>
+                            <p class="item-description"></p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Breads Available</h3>
+                            <p class="item-description">White, Wheat</p>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Chef Salad</h3>
+                            <p class="item-description">Field greens, turkey, Swiss, tomatoes, eggs, red onions, cucumbers</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Garden Salad</h3>
+                            <p class="item-description">Field greens, tomatoes, red onions, cucumbers, carrots, sprouts, parmesan cheese, toasted almonds and raisins</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Smoked Salmon Salad</h3>
+                            <p class="item-description">Field greens, Smoked salmon, tomatoes, red onions, capers</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Exotic International Specialties Section -->
+                <div class="menu-section">
+                    <h2>Exotic International Specialties</h2>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Bordeaux Brie</h3>
+                            <p class="item-description">Baked brie, raspberry preserves & sliced almonds</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Polynesian Pleasure</h3>
+                            <p class="item-description">Bagel with cream cheese, topped with swiss over pineapple and ham</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Lebianesse Gonzo Garbanzo</h3>
+                            <p class="item-description">Delicious hummus made from chick peas, olive oil, garlic and spices with cream cheese, tomato and sprouts</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Mexican Madness</h3>
+                            <p class="item-description">Refried beans, chopped onions, and salsa with melted mozzarella</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>White Pizza Pizza</h3>
+                            <p class="item-description">Olive oil, garlic, green pesto or red pizza sauce, oregano, topped melted mozzarella and parmesan (add sausage, ham or bacon)</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>San Francisco Sprout</h3>
+                            <p class="item-description">Veggie cream cheese, sprouts, cucumber, tomato, black olives, feta cheese</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Venice Veggie</h3>
+                            <p class="item-description">Cucumbers, Green peppers, onions, lettuce, tomatoes, & shredded carrots w/ ranch dressing</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Charleston Cheese Melt</h3>
+                            <p class="item-description">Melted provolone, Swiss, American served open faced</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Carolina Catch</h3>
+                            <p class="item-description">Tuna salad, topped with choice of melted American, Swiss, or Provolone cheese served open faced</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lunch Wraps Section -->
+                <div class="menu-section">
+                    <h2>Lunch Wraps</h2>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Wall Street Wrap</h3>
+                            <p class="item-description">Turkey, bacon, tomatoes, lettuce</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Aegean Wrap</h3>
+                            <p class="item-description">Field greens, tomatoes, cucumber, Feta cheese, black olives, sprouts, almonds, rasins with Greek dressing</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Hawaiian Wrap</h3>
+                            <p class="item-description">Ham, pineapple, Swiss, cream cheese</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Buffalo Chicken</h3>
+                            <p class="item-description">Grilled chicken, onions, peppers, tomatoes, provolone cheese, mayonnaise and mustard</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Wraps</h3>
+                            <p class="item-description">Sun Dried Tomato, Spinach, Jalapeno Cheddar, Low Carb, Wheat</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panini Sandwiches Section -->
+                <div class="menu-section">
+                    <h2>Panini Sandwiches</h2>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Grilled Beef Panini</h3>
+                            <p class="item-description">Sliced roast Beef, onions, horseradish sauce, and cheddar</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Turkey Panini</h3>
+                            <p class="item-description">Sliced turkey, roasted red peppers, provolone cheese</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Grilled Veggie Panini</h3>
+                            <p class="item-description">Portabella mushrooms, roasted red peppers, provolone cheese and onions</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Grilled Chicken</h3>
+                            <p class="item-description">Sliced chicken, Pesto, provolone cheese, roasted red peppers, and red onions</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <h3>Lunch Sides</h3>
+                            <p class="item-description">Chips, pasta salad, potato salad</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer style="background-color: #9b5a6d; color: white; text-align: center; padding: 20px; font-size: 14px; margin-top: 40px; width: 100%;">
+        <p>Copyright 2026 Bagel Nation | All Rights Reserved | Designed by Lila Wrenn DuPre</p>
+    </footer>
+
+    <script src="../../script.js/script.js"></script>
+</body>
+</html>

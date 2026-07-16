@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Home</title>
+    <link rel="stylesheet" href="../../style.css/style.css">
+    <style>
+        footer {
+            background-color: #9b5a6d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            margin-top: 40px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1 class="title-placeholder">BAGEL NATION</h1>
+        
+        <!-- Dropdown Menu -->
+        <div class="dropdown">
+            <button class="dropdown-btn">--- ▼</button>
+            <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="../menu.html/menu.html">Menu</a>
+                <a href="../online.html/location.html">Locations</a>
+                <a href="../contact.html/contactUs.html">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="home-page">
+        <section class="home-hero">
+            <div class="home-hero-copy">
+                <a class="location-link" href="../online.html/location.html">
+                    <button class="location-btn">Order Now</button>
+                </a>
+                
+                <p class="section-tag">Charleston favorite</p>
+                <h2>Fresh bagels, bold flavors, and morning comfort.</h2>
+                <p class="hero-note">A locally owned business, serving breakfast sandwiches, omelets, pancakes, wraps, and more for over 30 years!</p>
+            </div>
+            <div class="home-hero-visual">
+                <img src="../BagelNationLogo_.17-1-6-1.webp" class="hero-image">
+            </div>
+        </section>
+
+        <section class="info-section">
+            <div class="info-card">
+                <h3>About Bagel Nation</h3>
+                <p class="info-paragraph">
+                    Beloved by locals, college students, and visitors who are in the know, Bagel Nation has the best bagels in all of Charleston! We make all of our bagels from scratch every morning and use only the freshest ingredients.  Of course, bagels are delicious by themselves, but you have to try one with one of our specialty cream cheeses or as a breakfast sandwich, which is what we’re really known for… who wouldn’t love bacon, egg and cheese (Egglewich Deluxe) on a toasted bagel? You must try a Southern Belle on an Everything Bagel; it’s our number one seller. Our famous Frazzle bagels are encrusted with large crystals of sugar and cinnamon,  and  tops the list for those who love the sweeter side.   Any of our breakfast or lunch sandwich bagels can be made into a wrap. And everyone knows the best accompaniment to delicious bagels is a great cup of coffee. We have 15 different flavors of freshly brewed coffee, with favorites such as Southern Pecan, Snickerdoodle, Tiramasu and Hazelnut.  Refills are free of course.
+We have more on our menu than bagels though, like our fluffy omelets, buttermilk pancakes or cinnamon rolls. Do you want to skip the eggs and go for lunch? Try one of our sandwiches on a bagel or in a wrap like our Manhatten Bagel Sandwich or a Wall Street.
+We also serve made in-house fresh, chicken, tuna and egg salads.
+                </p>
+            </div>
+            <div class="info-card">
+                <h3>Visit Us</h3>
+                <p class="info-paragraph">
+                    We have two locations in Charleston, one in James Island and one in West Ashley. We are open from 6am to 2pm Monday through Friday and 7am to 2pm on Saturday and Sunday. We look forward to serving you! Go to the "Locations" tab to order online for pickup or delivery.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright 2026 Bagel Nation | All Rights Reserved | Designed by Lila Wrenn DuPre</p>
+    </footer>
+
+    <script>
+        // Dropdown menu functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownBtn = document.querySelector('.dropdown-btn');
+            const dropdownContent = document.querySelector('.dropdown-content');
+
+            if (dropdownBtn && dropdownContent) {
+                dropdownBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+                });
+
+                // Close dropdown when clicking on a link
+                const dropdownLinks = dropdownContent.querySelectorAll('a');
+                dropdownLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        dropdownContent.style.display = 'none';
+                    });
+                });
+            }
+
+            // Close dropdown when clicking outside
+            document.addEventListener('click', function(e) {
+                if (dropdownContent && !e.target.closest('.dropdown')) {
+                    dropdownContent.style.display = 'none';
+                }
+            });
+        });
+    </script>
+    <script src="../../script.js/script.js"></script>
+</body>
+</html>
